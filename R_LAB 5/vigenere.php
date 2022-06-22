@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="CSS/styles.css">
     <title>Vigenere cipher</title>
 </head>
 <body>
@@ -51,8 +51,7 @@
         different points in the encryption process, the cipher uses a different alphabet from one of the rows. 
         The alphabet used at each point depends on a repeating keyword.
     </p>
-    <script src="vigenere.js"></script>
-
+    <script src="JS/vigenere.js"></script>
     <?php
     require_once("foot.php");
     ?>

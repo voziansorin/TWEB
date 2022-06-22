@@ -1,6 +1,6 @@
 <?php
 
-    include 'database.php';
+    include 'AJAX/database.php';
 
 ?>
 
@@ -10,7 +10,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="CSS/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 
     <title>Contact</title>
@@ -24,7 +24,7 @@
                 var email = $("#email").val();
                 var message = $("#message").val();
                 var submit = $("#submit").val();
-                $(".form-message").load("mail.php", {
+                $(".form-message").load("AJAX/mail.php", {
                     name: name,
                     email: email,
                     message: message,
@@ -42,7 +42,7 @@
 
 <h1>Contact</h1>
 
-<form action="mail.php" method="POST">
+<form action="AJAX/mail.php" method="POST">
 <div id="form">
 <input id="name" type="text" placeholder="Your name" name="name">
 <br>

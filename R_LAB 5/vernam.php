@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="CSS/styles.css">
     <title>Vernam cipher. One-time pad</title>
 </head>
 <body>
@@ -45,7 +45,7 @@
             <li>The key must be kept completely secret by the communicating parties.</li>
         </ul>
     </p>
-    <script src="vernam.js"></script>
+    <script src="JS/vernam.js"></script>
 
     <?php
     require_once("foot.php");

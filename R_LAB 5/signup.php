@@ -1,6 +1,6 @@
 <?php
 
-    include 'database.php';
+    include 'AJAX/database.php';
 
 ?>
 <!DOCTYPE html>
@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="CSS/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <title>Sign Up</title>
 
@@ -22,7 +22,7 @@
                 var password1 = $("#password1").val();
                 var password2 = $("#password2").val();
                 var submit = $("#submit").val();
-                $(".form-message").load("signup-a.php", {
+                $(".form-message").load("AJAX/signup-a.php", {
                     email: email,
                     password1: password1,
                     password2: password2,
@@ -39,7 +39,7 @@
 <body>
     
     <h1>Sign Up</h1>
-    <form action="signup-a.php" method="POST">
+    <form action="AJAX/signup-a.php" method="POST">
     <div id="form">
 
     <input id="email" type="text" placeholder="Email" name ="email">

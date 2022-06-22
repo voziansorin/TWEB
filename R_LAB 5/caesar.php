@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="CSS/styles.css">
 
     <title>Caesar cipher</title>
 </head>
@@ -40,8 +40,7 @@
         cipher is easily broken and in modern practice offers essentially no communications 
         security.
     </p>
-    <script src="caesar.js"></script>
-
+    <script src="JS/caesar.js"></script>
     <?php
     require_once("foot.php");
     ?>
