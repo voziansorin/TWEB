@@ -33,7 +33,7 @@ session_start();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="CSS/styles.css">
 
     <title>Sign In</title>
 </head>
@@ -57,7 +57,7 @@ session_start();
     </div>
 
 
-    <script src="signup.js"></script>
+    <script src="JS/signup.js"></script>
     <?php
     require_once("foot.php");
     ?>
